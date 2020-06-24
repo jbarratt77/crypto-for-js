@@ -27,3 +27,7 @@ console.log(Crypto.HmacSHA512("qqqq", "asd").toString());
 console.log(Crypto.HmacSHA384("asfasfaf", "anything").toString());
 console.log(Crypto.HmacSHA3(1, "a").toString());
 console.log(Crypto.HmacRIPEMD160(7, "").toString());
+
+console.log(Crypto.SHA256(Crypto.enc.Utf8.parse("кирилица")).toString());
+console.log(Crypto.SHA256("кирилица").toString());
+console.log(Crypto.SHA256(Crypto.enc.Latin1.parse("кирилица")).toString());
