@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jbarratt77/crypto-for-js#readme",
   "dependencies": {
-    "crypto-js": "^4.0.0"
+    "crypto-js": "^4.2.0"
   }
 }
